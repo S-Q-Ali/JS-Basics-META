@@ -219,7 +219,6 @@ function AccessObjectProperties() {
 AccessObjectProperties();
 
 
-console.log("Hello 
-    World");
+console.log("Hello World");
 console.log(`Hello
     World`);
