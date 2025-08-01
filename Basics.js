@@ -261,3 +261,7 @@ console.log(bestBoxers);
 const newBoxer= ["champion","runner-up","the third place","champion","runner-up","the third place"];
 const newBoxers=new Set(newBoxer);
 console.log(newBoxers);
+
+
+const spread_Use=["V","A","Matters"];
+console.log(...spread_Use);
