@@ -238,3 +238,26 @@ const arr=[0,10,20,30,40,50].map( function(num) {
     return num / 10
 })
 console.log(arr);
+
+
+const result = [];
+const drone = {
+    speed: 100,
+    color: 'yellow'
+}
+const droneKeys = Object.keys(drone);
+droneKeys.forEach( function(key) {
+    result.push(key, drone[key])
+})
+console.log(result);
+
+
+let bestBoxers=new Map();
+bestBoxers.set(1,"Champion");
+bestBoxers.set(2,"Runner-up");
+bestBoxers.set(3,"The third place");
+console.log(bestBoxers);
+
+const newBoxer= ["champion","runner-up","the third place","champion","runner-up","the third place"];
+const newBoxers=new Set(newBoxer);
+console.log(newBoxers);
